@@ -86,6 +86,6 @@ Analyzes a given email for potential phishing threats.
 ## Notes
 
 - All timestamps are returned in ISO 8601 format.
-- The system uses a background scheduler to periodically generate performance charts and metrics every 5 minutes.
+- The system uses a background scheduler to periodically generate performance charts and metrics every 60 minutes.
 - The models for URL and email phishing detection are loaded at application startup.
 - Ensure that the necessary database and model files are present in the specified locations before running the API.
