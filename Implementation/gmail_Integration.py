@@ -422,8 +422,8 @@ def main():
     service = get_gmail_service()
     last_history_id = load_history_id()
     
-    chart_interval = 300  # Generate charts every 5 minutes
-    metrics_interval = 300  # Generate metrics every 5 minutes
+    chart_interval = 3600  # Generate charts every 60 minutes
+    metrics_interval = 3600  # Generate metrics every 60 minutes
     
     last_chart_time = time.time()
     last_metrics_time = time.time()
