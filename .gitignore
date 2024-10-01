@@ -11,13 +11,11 @@ __pycache__/
 *.log
 *.pt
 *.pth
-vocab.txt
-special_tokens_map.json
-tokenizer_config.json
-combined_dataset-website.csv
-phishing_email.csv
 email_logs/
 url_logs/
+models/
+Raw_datasets/
+Processed_datasets/
 models/url
 models/email
 
