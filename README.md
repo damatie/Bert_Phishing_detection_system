@@ -34,7 +34,7 @@ This project implements a real-time phishing detection system using DistilBERT-b
   - `Trained_models/`: Directory for storing trained models
     - `email/`: Trained email models and Training log
     - `url/`: Trained URL models and Training log
-  - `notebook-bert-model.ipynb`: Jupyter notebook for model development and analysis
+  - `notebook-bert-model.ipynb`: Jupyter notebook for data prepocessing, model development, and analysis
 
 ## Installation
 
