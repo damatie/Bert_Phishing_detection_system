@@ -9,13 +9,8 @@ __pycache__/
 
 # Ignore logs and output files
 *.log
-*.pt
-*.pth
-*.json
 email_logs/
 url_logs/
-models/url
-models/email
 
 # Ignore security credentials
 token.pickle
