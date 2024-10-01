@@ -1,0 +1,34 @@
+# Ignore virtual environment folders
+env/
+venv/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore logs and output files
+*.log
+*.pt
+*.pth
+*.json
+email_logs/
+url_logs/
+models/url
+models/email
+
+# Ignore security credentials
+token.pickle
+client_secret.json
+history_id.txt
+google-credentials.json
+
+# Ignore SQLite database
+*.db
+
+# Ignore image files like performance charts
+# *.png
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
